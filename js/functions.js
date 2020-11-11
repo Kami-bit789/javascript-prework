@@ -7,5 +7,11 @@ function printMessage(msg){
 function clearMessages(){
 	document.getElementById('messages').innerHTML = '';
 }
-
-
+function displayResult(argComputerMove, argPlayerMove){
+  
+	if( argComputerMove == 'kamień' && argPlayerMove == 'papier'){
+	  printMessage('Ty wygrywasz!');
+	} else {
+	  printMessage('Tym razem przegrywasz :(');
+	}
+  }
