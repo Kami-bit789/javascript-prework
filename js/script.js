@@ -29,3 +29,7 @@ if(playerInput == '1'){
 }
 
 printMessage('Twój ruch to: ' + playerMove);
+
+if( computerMove == 'kamień' && playerMove == 'papier'){
+  printMessage('Ty wygrywasz!');
+}
