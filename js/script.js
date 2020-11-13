@@ -30,9 +30,6 @@ if(playerInput == '1'){
 
 printMessage('Twój ruch to: ' + playerMove);
 
-document.write {
-  printMessage('Wynik gry')
-}
 if( computerMove == 'kamień' && playerMove == 'papier'){
   printMessage('Ty wygrywasz!');
 } else if (computerMove == "papier" && playerMove == "nożyce") {
