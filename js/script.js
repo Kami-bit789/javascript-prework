@@ -31,6 +31,4 @@ if(playerInput == '1'){
 }
 */
 
-let playerInput {
-  return displayResult;
-}
+displayResult(argComputerMove, argPlayerMove);
