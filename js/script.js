@@ -31,4 +31,4 @@ if(playerInput == '1'){
 }
 */
 
-displayResult;
+displayResult(argComputerMove, argPlayerMove);
