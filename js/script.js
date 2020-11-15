@@ -31,6 +31,6 @@ if(playerInput == '1'){
 */
 printMessage('Twój ruch to: ' + getMoveName);
 
-let getMoveName(randomNumber){
-  return displayResult
+function displayResult (argComputerMove, argPlayerMove){
+  return printMessage
 }
