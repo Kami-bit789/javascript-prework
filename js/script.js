@@ -31,7 +31,6 @@ if(playerInput == '1'){
 }
 */
 
-let result = displayResult(argComputerMove, argPlayerMove);
-printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove, 'wynik:' + displayResult(argComputerMove, argPlayerMove);
-   
-
+let playerInput {
+  return displayResult;
+}
