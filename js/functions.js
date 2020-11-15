@@ -8,7 +8,7 @@ function clearMessages(){
 	document.getElementById('messages').innerHTML = '';
 }
 function displayResult (argComputerMove, argPlayerMove){
-	if( argComputerMove == 'kamień' && argPlayerMove == 'papier'){
+		if( argComputerMove == 'kamień' && argPlayerMove == 'papier'){
 		printMessage('Ty wygrywasz!');
 	  } else if (argComputerMove == "papier" && argPlayerMove == "nożyce") {
 		printMessage('Ty wygrywasz!');

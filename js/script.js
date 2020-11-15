@@ -2,13 +2,14 @@ let randomNumber = Math.floor(Math.random() * 3 + 1);
 
 console.log('Wylosowana liczba to: ' + randomNumber);
 
-let computerMove = getMoveName(randomNumber);
+let computerMove = getMoveName(randomNumber); {
 if (randomNumber == '1'){
   getMoveName = 'kamień';
 } else if (randomNumber == '2'){
   getMoveName = "papier"
 } else if (randomNumber == '3'){
   getMoveName = "nożyce"
+  }
 }
 /*
 if(randomNumber == '1'){
