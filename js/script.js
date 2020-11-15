@@ -31,6 +31,4 @@ if(playerInput == '1'){
 */
 printMessage('Twój ruch to: ' + getMoveName);
 
-function displayResult (argComputerMove, argPlayerMove) {
-  return displayResult;
-}
+function displayResult (argComputerMove, argPlayerMove);
