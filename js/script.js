@@ -31,5 +31,4 @@ if(playerInput == '1'){
 */
 printMessage('Twój ruch to: ' + getMoveName);
 
-
-
+let displayResult (argComputerMove, argPlayerMove);
