@@ -16,3 +16,19 @@ function getMoveName(randomNumber) {
 		getMoveName = "nożyce"
 	  }
 }
+function displayResult(argComputerMove, argPlayerMove){
+	
+		if( argComputerMove == 'kamień' && argPlayerMove == 'papier'){
+		printMessage('Ty wygrywasz!');
+	  } else if (argComputerMove == "papier" && argPlayerMove == "nożyce") {
+		printMessage('Ty wygrywasz!');
+	  } else if (argComputerMoveMove == "nożyce" && argPlayerMove == "kamień") {
+		printMessage('Ty wygrywasz!');
+	  } else if (argPlayerMove == "nieznany ruch") {
+		printMessage('Wybierz swój ruch! 1: kamień, 2: papier, 3: nożyce.')
+	  } else if (argComputerMove == argPlayerMove){
+		printMessage('Remis!')
+	  } else {
+		printMessage('Niestety przegrywasz')
+	  } 
+	}
