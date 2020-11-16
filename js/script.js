@@ -1,6 +1,6 @@
 function playGame(){
-  
-  let playerInput;
+  clearMessages;
+  let playerInput = "nieznany ruch";
 
 
 
@@ -64,17 +64,17 @@ function playGame(){
     printMessage('Niestety przegrywasz')
     } 
   }
-  displayResult(computerMove, playerMove);
-
-  document.getElementById('play-rock').addEventListener('click', function(){
-    printMessage('Guzik "Kamień" został kliknięty');
-  });
-
-  document.getElementById('play-paper').addEventListener('click', function(){
-    printMessage('Guzik "Papier" został kliknięty');
-  });
-
-  document.getElementById('play-scrissors').addEventListener('click', function(){
-    printMessage('Guzik "Nożyce" został kliknięty');
-  });
+  displayResult(computerMove, playerMove); 
 }
+document.getElementById('play-rock').addEventListener('click', function(){
+  printMessage('Guzik "Kamień" został kliknięty');
+});
+
+document.getElementById('play-paper').addEventListener('click', function(){
+  printMessage('Guzik "Papier" został kliknięty');
+});
+
+document.getElementById('play-scrissors').addEventListener('click', function(){
+  printMessage('Guzik "Nożyce" został kliknięty');
+});
+playGame (playerInput);
