@@ -69,9 +69,11 @@ function playGame(){
   document.getElementById('play-rock').addEventListener('click', function(){
     printMessage('Guzik "Kamień" został kliknięty');
   });
+
   document.getElementById('play-paper').addEventListener('click', function(){
     printMessage('Guzik "Papier" został kliknięty');
   });
+
   document.getElementById('play-scrissors').addEventListener('click', function(){
     printMessage('Guzik "Nożyce" został kliknięty');
   });
