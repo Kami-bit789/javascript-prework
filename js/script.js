@@ -30,4 +30,5 @@ if(playerInput == '1'){
   playerMove = "nożyce"
 }
 */
-displayResult(argComputerMove, argPlayerMove);
+
+function displayResult(argComputerMove, argPlayerMove);
