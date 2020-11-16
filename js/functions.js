@@ -7,12 +7,3 @@ function printMessage(msg){
 function clearMessages(){
 	document.getElementById('messages').innerHTML = '';
 }
-function getMoveName(randomNumber) {
-	if (randomNumber == '1'){
-	return 'kamień';
-	} else if (randomNumber == '2'){
-	return "papier" ;
-	} else if (randomNumber == '3'){
-	return "nożyce";
-	}
-  }
