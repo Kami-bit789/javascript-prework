@@ -1,6 +1,6 @@
-function playGame(playerMove){
-  clearMessages;
-  prompt playerInput;
+function playGame(){
+  
+ let playerInput;
 
 
 
@@ -77,4 +77,3 @@ document.getElementById('play-paper').addEventListener('click', function(){
 document.getElementById('play-scrissors').addEventListener('click', function(){
   printMessage('Guzik "Nożyce" został kliknięty');
 });
-playGame (playerInput);
