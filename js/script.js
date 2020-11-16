@@ -1,6 +1,6 @@
-function playGame(){
+function playGame(playerMove){
   clearMessages;
-  let playerInput = "nieznany ruch";
+  prompt playerInput;
 
 
 
