@@ -1,7 +1,8 @@
 
+let playerMove = playGame(playerInput);
+
 function playGame(playerInput){
   
-let playerMove = playGame(playerInput);
   if(playerInput == '1'){
   playerMove =  'kamień';
   } else if (playerInput == '2') {
