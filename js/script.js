@@ -1,13 +1,14 @@
+let playerMove = playGame(playerInput);
+
 function playGame(playerInput){
-  if (playerInput == '1'){
-    return 'Kamień';
-  } else if (playerInput == '2'){
-    return 'Papier';
-  } else if (playerInput == '3'){
-    return 'Nożyce';
+  if(playerInput == '1'){
+  playerMove =  'kamień';
+  } else if (playerInput == '2') {
+  playerMove =  "papier";
+  } else if (playerInput == "3") {
+  playerMove =  "nożyce";
   }
-
-
+  printMessage('Twój ruch to: ' + playerMove);
 
   let randomNumber = Math.floor(Math.random() * 3 + 1);
 
