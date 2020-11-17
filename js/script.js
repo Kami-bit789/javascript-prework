@@ -1,14 +1,15 @@
 function playGame(playerInput){
 
-    if(playerInput == '1'){
-    playerMove =  'kamień';
-    } else if (playerInput == '2') {
-    playerMove =  "papier";
-    } else if (playerInput == "3") {
-    playerMove =  "nożyce";
-    }
-    let playerMove = getMoveName(playerInput);
-    printMessage('Twój ruch to: ' + playerMove);
+  if(playerInput == '1'){
+  playerMove =  'kamień';
+  } else if (playerInput == '2') {
+  playerMove =  "papier";
+  } else if (playerInput == "3") {
+  playerMove =  "nożyce";
+  }
+
+  let playerMove = getMoveName(playerInput);
+  printMessage('Twój ruch to: ' + playerMove);
 
   function getMoveName(randomNumber) {
     if (randomNumber == '1'){
@@ -41,41 +42,21 @@ function playGame(playerInput){
     } 
   }
   displayResult(computerMove, playerMove); 
-    /*
-    let playerInput = prompt('Wybierz swój ruch! 1: kamień, 2: papier, 3: nożyce.');
-    
-    console.log('Gracz wpisał: ' + playerInput);
-    */
+  /*
+  let playerInput = prompt('Wybierz swój ruch! 1: kamień, 2: papier, 3: nożyce.');
+
+  console.log('Gracz wpisał: ' + playerInput);
+  */
   let computerMove = getMoveName(randomNumber);
   printMessage('Mój ruch to: ' + getMoveName(randomNumber));
 
 }
 
-document.getElementById('play-rock').addEventListener('click', playGame(MoveId))
-    if(MoveId == '1') {
-    playGame = 'kamień';
-    } else if (MoveId == '2') {
-    playGame = "papier";
-    } else if (MoveId == "3") {
-    playGame = "nożyce";
-    };
-    
+document.getElementById('play-rock').addEventListener('click', playGame(playerInput){
+});
 
+document.getElementById('play-paper').addEventListener('click', playGame(playerInput){
+});
 
-document.getElementById('play-paper').addEventListener('click', playGame(playerInput))
-  if (playerInput == '1') {
-  playGame = 'kamień';
-  } else if (playerInput == '2') {
-  playGame = "papier";
-  } else if (playerInput == "3") {
-  playGame = "nożyce";
-  };
-
-document.getElementById('play-scrissors').addEventListener('click', playGame(playerInput))
-  if(playerInput == '1') {
-  playGame = 'kamień';
-  } else if (playerInput == '2') {
-  playGame = "papier";
-  } else if (playerInput == "3") {
-  playGame = "nożyce";
-  };
+document.getElementById('play-scrissors').addEventListener('click', playGame(playerInput){
+});
