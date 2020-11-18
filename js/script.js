@@ -1,4 +1,5 @@
 function playGame(playerInput){
+  
   function clearMessages;
 
   let playerMove = getMoveName(playerInput);
@@ -50,7 +51,8 @@ document.getElementById('play-paper').addEventListener('click', function(){ play
 
 document.getElementById('play-scissors').addEventListener('click', function(){ playGame(3); }); 
 
-playGame;
+
+
 
 
 
