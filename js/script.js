@@ -1,12 +1,5 @@
 function playGame(playerInput){
-
-  if(playerInput == '1'){
-  playerMove =  'kamień';
-  } else if (playerInput == '2') {
-  playerMove =  "papier";
-  } else if (playerInput == "3") {
-  playerMove =  "nożyce";
-  }
+  clearMessages;
 
   let playerMove = getMoveName(playerInput);
   printMessage('Twój ruch to: ' + playerMove);
@@ -51,14 +44,11 @@ function playGame(playerInput){
   */
 }
 
-document.getElementById('play-rock').addEventListener('click', playGame(playerInput){
-});
+document.getElementById('play-rock').addEventListener('click', function(){ playGame(1); }); 
 
-document.getElementById('play-paper').addEventListener('click', playGame(playerInput){
-});
+document.getElementById('play-paper').addEventListener('click', function(){ playGame(2); }); 
 
-document.getElementById('play-scrissors').addEventListener('click', playGame(playerInput){
-});
+document.getElementById('play-scissors').addEventListener('click', function(){ playGame(3); }); 
 
 
 
