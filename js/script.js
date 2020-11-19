@@ -1,6 +1,6 @@
 function playGame(playerInput){
   
-  function clearMessages;
+  clearMessages();
 
   let playerMove = getMoveName(playerInput);
   printMessage('Twój ruch to: ' + playerMove);
@@ -55,6 +55,6 @@ document.getElementById('play-scissors').addEventListener('click', function(){ p
 
 
 
-
   
+
 
